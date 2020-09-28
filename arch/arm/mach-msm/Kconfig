@@ -1256,6 +1256,13 @@ config MACH_ROSSA_VZW
 	help
 	  Support for Samsung ROSSA Verizon device.
 
+config MACH_ROSSA_EUR_OPEN
+	depends on SEC_ROSSA_PROJECT
+	default n
+	bool "Samsung ROSSA EUR OPEN"
+	help
+	  Support for Samsung ROSSA EUR OPEN device.
+
 config SEC_XCOVER3_PROJECT
     depends on ARCH_MSM8916
 	default n
